@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/side.js"></script>
+    </head>
+    
+    <script>
+            PlaySound =()=>{ document.querySelector('audio').play();}
+    </script>
+    </head>
+<body>
+        <!-- Click Sound Start -->
+        <audio autoplay src="audio/about.wav"></audio>
+        <audio src="audio/click.mp3"></audio>
+        <!-- Click Sound Close -->    
+        
+          <!--Start side menu-->
+<div class="sidenav" id="sidenav1">
+     <li onclick="PlaySound()"><a href="#" class="closebtn" onclick="closeNav()">x</a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-home ui-btn-icon-left"><a href="index.html"> Home </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-user ui-btn-icon-left"><a href="profile.html"> Profile </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-info ui-btn-icon-left"><a href="about.html" id="active"> About </a></li>
+
+    <li onclick="PlaySound()" class="ui-btn ui-icon-navigation ui-btn-icon-left"><a href="blog.html"> Blog </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon-left"><a href="contact.html"> Contact </a></li>
+</div>
+<ul onclick="PlaySound()"><span id="btn" onclick="openNav()">=</span></ul>
+          <!--End side menu-->
+<br><br><br>
+
+            <!--start main-->
+        <h1 class="abt">Ab<span id="ou">ou</span>t</h1>
+<marquee><h1 class="four">Skills, Instructor, Hobbies, My Favourite Music, My Favourite DJ's, Education, Family, Place </h1></marquee>
+
+  <div class="det"> 
+  <hr>
+   <details>
+     <summary onclick="PlaySound()" id="skll" class="ui-btn ui-icon-gear ui-btn-icon-left">Skills <img src="img/head.gif" height="10" width="50"></summary>
+     <br>
+     <strong><label for="skills">HTML</label>
+     <progress id="html" value="30" max="100"></progress> 30%<br>
+     <label for="skills">CSS</label>
+     <progress id="css" value="10" max="100"></progress> 20%<br>
+     <label for="skills">JAVASCRIPT</label>
+     <progress id="javascript" value="10" max="100"></progress> 10%<br>
+     <label for="skills">DATABASE</label>
+     <progress id="database" value="30" max="100"></progress> 30%<br>
+     <label for="skills">TERMINAL</label>
+     <progress id="terminal" value="50" max="100"></progress> 50%</strong>
+   </details>
+   <br>
+   <hr>
+   <details>
+           <summary onclick="PlaySound()" id="inss" class="ui-btn ui-icon-user ui-btn-icon-left">Instructor<img src="img/head.gif" height="10" width="50"></summary>
+           <h1 id="ins"><q>Mr. Kurt Bryan Salvado Alegre</q></h1>
+           <p id="subj">Subject code: <strong><i>ITM320</i></strong></p>
+          <p id="subj">Subject : <strong>Mobile Application Development</strong></p>
+   </details>
+   <br>
+   <hr>
+   <details>
+     <summary onclick="PlaySound()" id="hobby" class="ui-btn ui-icon-star ui-btn-icon-left">Hobbies<img src="img/head.gif" height="10" width="50"></summary>
+      <p class="hobbs"><strong><span style="color:blue">Listen</span>ing to Mu<span style="color:blue">sic</span></strong></p>
+      <p class="hobbs"><strong>Expl<span style="color:blue">ori</span>ng</strong></p>
+      <p class="hobbs"><strong><span style="color:blue">Watch</span>ing Mo<span style="color:blue">vies</strong></p>
+   </details>
+   <br><hr>
+   <details>
+     <summary onclick="PlaySound()" id="musicc" class="ui-btn ui-icon-bullets ui-btn-icon-left">My Favourite Music<img src="img/head.gif" height="10" width="50"></summary>
+      <p class="mfm">Alan Walker - Faded</p>
+      <p class="mfm">Alan Walker - Don't Go</p>
+      <p class="mfm">Alan Walker - Spectre</p>
+      <p class="mfm">Alan Walker - The Spectre</p>      
+      <p class="mfm">Avicii - Without You</p>
+      <p class="mfm">Avicii - Wake me up</p>
+      <p class="mfm">Avicii - Sunshine</p>
+      <p class="mfm">Avicii - The Nights</p>
+      <p class="mfm">Rauf & Faik - Childhood</p>
+      <p class="mfm">Rauf & Faik - la la layn</p>
+      <p class="mfm">Radical Face - Always Gold</p>
+      <p class="mfm">Radical Face - Welcome Home, Son</p>
+      <p class="mfm">John Denver - Take Me Home</p>
+      <p class="mfm">Hambog ng Sagpro krew - Soulmate</p>
+      <p class="mfm">Hambog ng Sagpro krew - Dahil Sayo</p>
+      <p class="mfm">Rauf & Faik - la la layn</p>     
+      <p class="mfm">Kali Uchis - Melting</p>
+      <p class="mfm">d4vd - Here with me</p>
+      <p class="mfm">Coldplay - Yellow</p>
+   </details>  
+   <br>
+   <hr>
+      <details>
+        <summary onclick="PlaySound()" id="djs" class="ui-btn ui-icon-tag ui-btn-icon-left">My Favourite DJ's<img src="img/head.gif" height="10" width="50"></summary>
+        <p class="alan"><strong>Alan Olav Walker</strong></p>
+             <p><img src="img/dj/aw1.jpg" height="200" class="alw"></p>
+             <p><img src="img/dj/aw3.jpg" height="200" class="alw"></p>
+         </details>
+     <br>
+   <hr>
+      <details>
+     <summary onclick="PlaySound()" id="educ" class="ui-btn ui-icon-edit ui-btn-icon-left">Education<img src="img/head.gif" height="10" width="50"></summary>
+      <p class="educs"><strong>2020-2024</strong> -- S.Y</p>
+      <p class="educs">at <strong>Madridejos Community College</strong></p>
+      <p class="educs"><strong>BSIT</strong> -- Course</p>
+      <p class="educs">present --<strong> 3rd year level</strong></p>
+   </details>
+   <br>
+   <hr>
+            <!--end main-->
+            
+            
+           
+            <!--footer-->
+    <div class="foot-about">
+     <h4> Mobile Application Development </h4>
+    </div>
+
+</body>
+</html>

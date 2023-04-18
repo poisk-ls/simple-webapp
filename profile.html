@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/side.js"></script>
+    <script>
+            PlaySound =()=>{ document.querySelector('audio').play();}
+    </script>
+    
+    </head>
+    
+<body>
+        <!-- Click Sound Start -->
+        <audio autoplay src="audio/myprofile.wav"></audio>
+        <audio src="audio/click.mp3"></audio>
+        <!-- Click Sound Close -->    
+          <!--Start side menu-->
+<div class="sidenav" id="sidenav1">
+    <li onclick="PlaySound()"><a href="#" class="closebtn" onclick="closeNav()">x</a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-home ui-btn-icon-left"><a href="index.html"> Home </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-user ui-btn-icon-left"><a href="profile.html" id="active"> Profile </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-info ui-btn-icon-left"><a href="about.html"> About </a></li>
+
+    <li onclick="PlaySound()" class="ui-btn ui-icon-navigation ui-btn-icon-left"><a href="blog.html"> Blog </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon-left"><a href="contact.html"> Contact </a></li>
+</div>
+<ul onclick="PlaySound()"><span id="btn" onclick="openNav()">=</span></ul>
+          <!--End side menu-->
+<br><br><br>
+
+
+            <!--start main-->
+            <h1 class="head">My <span id="proff">Profile</span></h1>
+            <div>
+              <img class="pic" src="img/jade.png" height="200" width="200">
+              <li id="about">Firstname: <marquee class="value">Jade Nelson</marquee></li>
+              <li id="about">Middlename: <marquee class="value">Negre</marquee></li>
+              <li id="about">Lastname: <marquee class="value">Buhayan</marquee></li>
+             <li id="about">Age: <marquee class="value">I'm 21 years of age</marquee></li>
+              <li id="about">Address: <marquee class="value">Tarong, Madridejos, Cebu</marquee></li>
+              <li id="about">Purok: <marquee class="value"> Vietnamrose </marquee></li>
+             <li id="about">Birthdate: <marquee class="value">August, 08, 2001</marquee></li>
+              <li id="about">Nationality: <marquee class="value">Pure Filipino</marquee></li>              
+            </div>
+
+            
+            
+            <!--end main-->
+            
+            
+            
+            
+            <!--footer-->
+          <div>
+          <h3 class="foot-prof"> Mobile Application Development </h3>
+          </div>
+
+</body>
+</html>

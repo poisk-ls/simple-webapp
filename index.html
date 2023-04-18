@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/side.js"></script>
+    
+
+        <script>
+            PlaySound =()=>{ document.querySelector('audio').play();}
+    </script>
+    </head>    
+<body>
+        <!-- Click Sound Start -->
+        <audio autoplay src="audio/intro.wav"></audio>
+        <audio src="audio/click.mp3"></audio>
+        <!-- Click Sound Close -->
+        
+          <!--Start side menu-->
+<div class="sidenav" id="sidenav1">
+     <li onclick="PlaySound()"><a href="#" class="closebtn" onclick="closeNav()">x</a></li>
+     <li onclick="PlaySound()" class="ui-btn ui-icon-home ui-btn-icon-left"><a href="index.html" id="active"> Home </a></li>
+     <li onclick="PlaySound()" class="ui-btn ui-icon-user ui-btn-icon-left"><a href="profile.html"> Profile </a></li>
+     <li onclick="PlaySound()" class="ui-btn ui-icon-info ui-btn-icon-left"><a href="about.html"> About </a></li>
+
+     <li onclick="PlaySound()" class="ui-btn ui-icon-navigation ui-btn-icon-left"><a href="blog.html"> Blog </a></li>
+     <li onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon-left"><a href="contact.html"> Contact </a></li>
+     </div>
+     <ul onclick="PlaySound()"><span id="btn" onclick="openNav()">=</span></ul>
+          <!--End side menu-->
+<br><br><br>
+
+
+            <!--start main-->
+        <div class="pads">
+          <h1 class="porss"> Hi there!<img src="img/hil.gif" height="50" width="50"></h1>
+          <p class="pors"> I am passionate studying Mobile Application Development and currently exploring also customizing staff .
+        </div>
+        <button onclick="PlaySound()"><a href="profile.html" class="mores">MORE ABOUT ME</a></button>
+            
+            
+           <!--end main-->
+            
+            
+            
+            <!--footer-->
+            <div>
+          <h4 class="foot-index"> Mobile Application Development </h4>
+    </div>
+
+</body>
+</html>

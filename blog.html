@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/side.js"></script>
+    <script>
+            PlaySound =()=>{ document.querySelector('audio').play();}
+    </script>
+    
+    </head>
+    
+<body>
+        <!-- Click Sound Start -->
+        <audio autoplay src="audio/blog.wav"></audio>
+        <audio src="audio/click.mp3"></audio>
+        <!-- Click Sound Close -->    
+        
+          <!--Start side menu-->
+<div class="sidenav" id="sidenav1">
+    <li onclick="PlaySound()"><a href="#" class="closebtn" onclick="closeNav()">x</a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-home ui-btn-icon-left"><a href="index.html"> Home </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-user ui-btn-icon-left"><a href="profile.html"> Profile </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-info ui-btn-icon-left"><a href="about.html"> About </a></li>
+
+    <li onclick="PlaySound()" class="ui-btn ui-icon-navigation ui-btn-icon-left"><a href="blog.html" id="active"> Blog </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon-left"><a href="contact.html"> Contact </a></li>
+</div>
+<ul onclick="PlaySound()"><span id="btn" onclick="openNav()">=</span></ul>
+          <!--End side menu-->
+<br><br><br>
+
+
+            <!--start main-->
+          <h1 class="Blg">Bl<span id="o">o</span>g</h1>
+        <h1 class="h2">Here's my Collection</h1>
+    <div>
+      <p class="para">Database on Android</p>
+      <img src="img/db/db-gif1.gif" class="db">
+     <marquee><img src="img/hi.gif" height="10"> <a href="blog-db.html" class="vis">visit me <img src="img/hi.gif" height="10"></a></marquee>
+    </div>
+    <br>
+    <div>
+      <p class="para">Certificate of Participation</p>
+      <img src="img/db/cert.jpg" class="db">
+    </div>
+            
+       <div>
+         <p><img src="img/blog/bl1.jpg" class="movie"></p>
+         <marquee><img src="img/hi.gif" height="10"> <a href="blog-movie.html" class="vis">visit me <img src="img/hi.gif" height="10"></a></marquee>
+           </div> 
+            
+            <!--end main-->
+            
+            
+            
+            
+            <!--footer-->
+     <div class="foot-blog">
+     <h4> Mobile Application Development </h4>
+    </div>
+
+</body>
+</html>

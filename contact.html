@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/side.js"></script>
+    <script src="js/button.js"></script>
+    <script>
+            PlaySound =()=>{ document.querySelector('audio').play();}
+    </script>
+    
+    </head>
+    
+<body>
+        <!-- Click Sound Start -->
+        <audio autoplay src="audio/contact.wav"></audio>
+        <audio src="audio/click.mp3"></audio>
+        <!-- Click Sound Close -->    
+        
+          <!--Start side menu-->
+<div class="sidenav" id="sidenav1">
+    <li onclick="PlaySound()"><a href="#" class="closebtn" onclick="closeNav()">x</a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-home ui-btn-icon-left"><a href="index.html"> Home </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-user ui-btn-icon-left"><a href="profile.html"> Profile </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-info ui-btn-icon-left"><a href="about.html"> About </a></li>
+    
+    <li onclick="PlaySound()" class="ui-btn ui-icon-navigation ui-btn-icon-left"><a href="blog.html"> Blog </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon-left"><a href="contact.html" id="active"> Contact </a></li>
+</div>
+<ul onclick="PlaySound()"><span id="btn" onclick="openNav()">=</span></ul>
+          <!--End side menu-->
+<br><br><br>
+
+
+            <!--start main-->
+            
+     <div>
+      <h1 class="ctt">C<span id="on">on</span>t<span id="ac">ac</span>t</h1>
+       <marquee><h1 class="const">Connect with me <img src="img/ty.gif" height="30"></h1></marquee>
+     </div>
+     
+    <details>
+      <summary onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon ui-btn-icon-left" id="phone-sum"><strong>Phone <img src="img/phone.gif" height="20"></strong> </summary>
+       <p id="phone">press click the phone button</p>
+      <marquee onclick="PlaySound()"><button onclick="phone()" class="phone-btn">phone <img src="img/hi.gif" height="10"></button></marquee>
+    </details>
+    <br>
+       <details>
+      <summary onclick="PlaySound()" class="ui-btn ui-icon-mail ui-btn-icon ui-btn-icon-left" id="email-sum"><strong>Email <img src="img/email.gif" height="20"></strong> </summary>
+      <p id="email">press click the email button</p>
+      <marquee onclick="PlaySound()"><button onclick="email()" class="email-btn">email <img src="img/hi.gif" height="10"></button></marquee>
+    </details>
+    <br>
+    <br>
+    <div>
+      <a href="contact.html" class="ui-btn ui-icon-refresh ui-btn-icon-left" id="reff">refresh</a>
+       
+             
+             <!--My Social Account-->
+       <marquee><h1 class="const">My Social Account <img src="img/ty.gif" height="30"></h1></marquee>
+     </div>      
+         <details>
+      <summary onclick="PlaySound()" class="ui-btn ui-icon-mail ui-btn-icon-left" id="fb-sum"><strong>Facebook</strong> <img src="img/fb.gif" height="20"> </summary>
+      <p>     <img src="img/social/fb.jpg" height="200"></p>
+      <p><marquee><a href="https://www.facebook.com/jadenelson.buhayan.9" target="_blank" id="fb"><img src="img/fb.gif" height="20">Facebook<img src="img/fb.gif" height="20"></a></p></marquee>
+    </details> 
+    <br>
+         <details>
+      <summary onclick="PlaySound()" id="mes-sum" class="ui-btn ui-icon-mail ui-btn-icon-left"><strong>Messenger</strong> <img src="img/messenger.png" height="20"> </summary>
+      <p><img src="img/social/me.jpg" height="200" width="150"></p>
+      <p><marquee><a href="https://m.me/jadenelson.buhayan.9" target="_blank" id="mess"><img src="img/messenger.png" height="15">inbox me<img src="img/messenger.png" height="15"></a></marquee></p>
+    </details>
+    <br>
+         <details>
+     <summary onclick="PlaySound()" class="ui-btn ui-icon-mail ui-btn-icon-left" id="linkin-sum"><strong>Linkedin</strong> <img src="img/linkedin.png" height="20"> </summary>
+     <p><img src="img/social/linked.jpg" height="200"></p>
+      <p><marquee><a href="https://www.linkedin.com/in/poisk-ls-754943255" target="_blank" id="linke"><img src="img/linkedin.png" height="15">linkedin<img src="img/linkedin.png" height="15"></a></marquee></p>
+    </details>
+    <br>
+             <details>
+     <summary onclick="PlaySound()" class="ui-btn ui-icon-mail ui-btn-icon-left" id="twit-sum"><strong>Twitter</strong> <img src="img/twit.gif" height="20"> </summary>
+     <p><img src="img/social/twitter.jpg" height="200"></p>
+      <p><marquee><a href="https://twitter.com/poisk_ls" target="_blank" id="twit"><img src="img/twit.gif" height="15">twitter<img src="img/twit.gif" height="15"></a></marquee></p>
+    </details>
+    <br>
+             <details>
+     <summary onclick="PlaySound()" class="ui-btn ui-icon-mail ui-btn-icon-left" id="ins-sum"><strong>Instagram</strong> <img src="img/insta.png" height="20"> </summary>
+      <p><img src="img/social/insta.jpg" height="200"></p>
+      <p><marquee><a href="https://instagram.com/buhayanjade" target="_blank" id="ins"><img src="img/insta.png" height="15">instagram<img src="img/insta.png" height="15"></a></marquee></p>
+    </details>
+
+            <!--end main-->
+            
+            
+            
+            
+            <!--footer-->
+    <div class="foot-contact">
+       <h4> Mobile Application Development </h4>
+    </div>
+
+</body>
+</html>

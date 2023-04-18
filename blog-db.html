@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/side.js"></script>
+    <script>
+            PlaySound =()=>{ document.querySelector('audio').play();}
+    </script>
+    
+    </head>
+    
+<body>
+        <!-- Click Sound Start -->
+        <audio autoplay src="audio/blogdb.wav"></audio>
+        <audio src="audio/click.mp3"></audio>
+        <!-- Click Sound Close -->  
+        
+          <!--Start side menu-->
+<div class="sidenav" id="sidenav1">
+     <li onclick="PlaySound()"><a href="#" class="closebtn" onclick="closeNav()">x</a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-home ui-btn-icon-left"><a href="index.html"> Home </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-user ui-btn-icon-left"><a href="profile.html"> Profile </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-info ui-btn-icon-left"><a href="about.html"> About </a></li>
+
+    <li onclick="PlaySound()" class="ui-btn ui-icon-navigation ui-btn-icon-left"><a href="blog.html" id="active"> Blog </a></li>
+    <li onclick="PlaySound()" class="ui-btn ui-icon-phone ui-btn-icon-left"><a href="contact.html"> Contact </a></li>
+</div>
+<ul onclick="PlaySound()"><span id="btn" onclick="openNav()">=</span></ul>
+          <!--End side menu-->
+<br><br><br>
+
+
+            <!--start main-->
+        <h1><marquee class="marq">Database on Termux!!</marquee></h1>
+    <div>
+      <p class="para">My Database Collection</p>
+      <img src="img/db/db1.jpg" class="db1">
+      <img src="img/db/db2.jpg" class="db1">
+      <img src="img/db/db3.jpg" class="db1">
+      <img src="img/db/db4.jpg" class="db1">
+      <img src="img/db/db5.jpg" class="db1">
+      <img src="img/db/db6.jpg" class="db1">
+      <img src="img/db/db7.jpg" class="db1">
+      
+      <marquee><button type="button" class="bot"><a href="blog.html" class="dba">back <img src="img/hil.gif" height="10"></a></button></marquee>
+    </div>
+            
+            
+            
+            
+            <!--end main-->
+            
+            
+            
+            
+            <!--footer-->
+        <div class="foot-db">
+     <h4> Mobile Application Development </h4>
+    </div>
+
+</body>
+</html>

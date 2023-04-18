@@ -1,0 +1,327 @@
+body {
+    background-color: #D5D5D5;
+    text-align: center;
+}
+
+/* Start side menu */
+.sidenav {
+height:100%;
+width:0;
+position:fixed;
+top:0;
+left:0;
+padding-top:50px;
+background-color: black;
+overflow-x:hidden;
+z-index:1;
+transition:0.2s;
+}
+
+.sidenav a {
+display:block;
+padding:10px 8px 8px 30px;
+color:white;
+text-decoration:none;
+font-size:25px;
+transition:0.5s;
+}
+
+a:hover {
+color:#A0A0F9;
+}
+
+.sidenav .closebtn {
+position:absolute;
+top:0;
+right:35px;
+margin-left:35px;
+font-size:40px;
+}
+/* Close side menu */
+#btn {
+position:fixed;
+top:0;
+left:5px;
+font-size:50px;
+}
+
+.ui-btn{
+  margin-right: 3vw;
+}
+
+.ui-btn-icon-left{
+  margin-left: 3vh;
+  padding-left: 7vw;
+}
+/* Start Images opacity */
+img:hover{
+  opacity: 0.6;
+}
+/* End of images opacity */
+
+/* Start home page of index.html */
+.foot-index{
+  padding-top: 30vh;
+  text-shadow: 1px 1px 1px white;
+}
+.abb{
+  font-size: 20px;
+}
+.pads{
+  margin-top: 20vh;
+}
+.mores{
+  text-decoration: none;
+  background: whitesmoke;
+  color: black;
+  text-shadow: 1px 1px 1px gray;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pors{
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  text-shadow: 1px 1px 1px white;
+  font-weight: bold;
+}
+.porss{
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  text-shadow: 1px 1px 1px gold;
+}
+/* Close index.html */
+
+/* Start page of profile.html */
+.pic{
+        border-style: groove;
+        border-color: gold;
+        border-radius: 10vh;
+}
+#about{
+  list-style: none;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 1px blue;
+  letter-spacing: 3px;
+}
+.value{
+  font-variant: normal;
+  font-family: 'Times New Roman';
+  text-shadow: 1px 1px 1px gold;
+}
+.head{
+        color: white;
+        text-shadow: 1px 1px 20px black;
+}
+#proff{
+        color: yellow;
+        text-shadow: 1px 1px 10px black;
+}
+.foot-prof{
+        padding-top: 2vh;
+        text-shadow: 1px 1px 1px white;
+}
+
+/* Start page of blog.html */
+.db, .movie{
+  height: 100%;
+  width: 100%;
+  border-radius: 10vw;
+}
+.h2{
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+}
+.para{
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+.vis{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px yellow;
+  
+}
+.foot-blog{
+  padding-top: 3vh;
+  text-shadow: 1px 1px 1px white;
+}
+.Blg{
+       color: white;
+       text-shadow: 1px 1px 21px black;
+}
+#o{
+      color: yellow;
+      text-shadow: 1px 1px 1px black;
+}
+/* End page of blog.html */
+
+/* Start page of db.html */
+.dba{
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px blue;
+}
+.bot{
+  background: black;
+  border-radius: 10px;
+}
+.marq{
+  color: black;
+  text-shadow: 1px 1px 1px gold;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+.db1{
+  height: 100%;
+  width: 100%;
+  border-radius: 5vh;
+}
+/* End page of db.html */
+
+/* Start page of about.html */
+.det{
+  margin-top: 5vh;
+}
+#skll, #inss, #hobby, #musicc, #educ, #fam, #loc, #djs{
+  color: lightyellow;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+  text-shadow: 1px 1px 1px blue;
+}
+summary{
+  background: skyblue;
+}
+.four{
+  color: black;
+  font-variant: normal;
+  text-shadow: 1px 1px 1px white;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+.abt{
+       color: white;
+       text-shadow: 1px 1px 21px black;
+}
+#ou{
+      color: yellow;
+      text-shadow: 1px 1px 1px black;
+}
+.abt, #ou{
+        font-family: 'Times New Roman';
+}
+.foot-about{
+  padding-top: 12vh;
+  text-shadow: 1px 1px 1px white;
+}
+#seven{
+        text-shadow: 1px 1px 1px yellow;
+}
+#ins{
+        font-size: 15px;
+}
+.mfm{
+        font-weight: bold; 
+        text-shadow: 1px 1px 1px white;
+}
+.famm{
+        border-style: groove;
+        border-color: gold;
+        border-radius: 10px;
+}
+.alw{
+        border-style: groove;
+        border-color: blue;
+        border-radius: 20px;
+}
+.place{
+        border-style: groove;
+        border-color: green;
+        border-radius: 20px;
+}
+#subj, .fams, .alan, .hobbs, .educs, .placs{
+       text-shadow: 1px 1px 1px white;
+}
+/* End page of about.html */
+
+/* Start page of contact.html */
+.const{
+  color: darkblue;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 1px gold;
+  font-size: 20px;
+}
+#phone, #email{
+        color: darkblue;
+        text-shadow: 1px 1px 1px white;
+}
+.phone-btn, .email-btn{
+        font-family: 'Times New Roman';
+        background: lightblue;
+        border-radius: 5px;
+        border-color: white;
+        text-shadow: 1px 1px 1px white;
+}
+#reff{
+        color: lightyellow;
+        text-shadow: 1px 1px 1px blue;
+}
+#phone-sum, #email-sum, #fb-sum, #mes-sum, #linkin-sum, #twit-sum, #ins-sum {
+        color: lightyellow;
+        text-shadow: 1px 1px 1px blue;
+}
+
+#fb, #ins, #mess, #linke, #twit{
+        font-family: 'Times New Roman';
+        border-radius: 5px;
+        border-color: blue;
+        text-shadow: 1px 1px 1px white;
+}
+.foot-contact {
+        padding-top: 3vh;
+        text-shadow: 1px 1px 1px white;
+}
+.ctt{
+       color: white;
+       text-shadow: 1px 1px 21px black;
+}
+#on, #ac{
+      color: yellow;
+      text-shadow: 1px 1px 1px black;
+}
+.ctt, #ac{
+        font-family: 'Times New Roman';
+}
+/* End page of contact.html */
+
+/*----*/
+.cont{
+  list-style: none;
+}
+/*----*/
+/* Start active page */
+#active{
+        color: white;
+        text-shadow: 1px 1px 1px blue;
+        font-family: 'Times New Roman';
+        font-weight: 1000;
+}
+/* Close active page */
+
+/* start blog-db.html */
+.foot-db{
+        padding-top: 3vh;
+        text-shadow: 1px 1px 1px white;
+}
+/* close blog-db.html */
+
+/* start blog-db.html */
+.foot-movie{
+        padding-top: 3vh;
+        text-shadow: 1px 1px 1px white;
+}
+/* close blog-db.html */
